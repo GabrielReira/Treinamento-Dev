@@ -1,0 +1,139 @@
+body {
+  color: #fff;
+  background-color: #161616;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+}
+
+/* HEADER */
+nav {
+  position: fixed;
+  background-color: #3b3b3b;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 2em;
+  text-decoration: none;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #0078d0;
+  transition: color .7s;
+}
+
+
+/* VIDEO */
+#video video {
+  width: 100%;
+}
+
+#video img {
+  max-width: 80%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+/* LOCAL */
+#local {
+  position: relative;
+}
+
+#local h2, p {
+  position: absolute;
+}
+
+#local h2 {
+  top: 3%;
+  left: 45%;
+}
+
+#local p {
+  top: 10%;
+  padding: 2em;
+  text-align: justify;
+}
+
+#local img {
+  width: 100%;
+  opacity: .4;
+}
+
+
+/* DRINKS */
+#drinks {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 30em;
+  background-image: url('./images/drinks_background.jpg');
+}
+
+#drinks div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.65);
+}
+
+#drinks h2 {
+  text-align: center;
+}
+
+#drinks p {
+  padding-left: 5%;
+  text-align: justify;
+}
+
+#beers {
+  max-width: 20%;
+  margin-top: 6em;
+  padding-left: 5%;
+}
+
+
+/* FOOTER */
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+
+footer div {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+footer h3 {
+  font-size: x-large;
+}
+
+footer h3:hover {
+  text-decoration: underline;
+  color: #c1e7ff;
+  transition: all .7s;
+}
+
+footer p {
+  position: relative !important;
+}
