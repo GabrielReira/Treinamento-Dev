@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Gabriel Reira">
+  <title>Jogo da Velha</title>
+</head>
+<body>
+  <h1></h1>
+  <table>
+    <tr>
+      <td onclick="Jogo.marcar()" id="00"></td>
+      <td onclick="Jogo.marcar()" id="01"></td>
+      <td onclick="Jogo.marcar()" id="02"></td>
+    </tr>
+    <tr>
+      <td onclick="Jogo.marcar()" id="10"></td>
+      <td onclick="Jogo.marcar()" id="11"></td>
+      <td onclick="Jogo.marcar()" id="12"></td>
+    </tr>
+    <tr>
+      <td onclick="Jogo.marcar()" id="20"></td>
+      <td onclick="Jogo.marcar()" id="21"></td>
+      <td onclick="Jogo.marcar()" id="22"></td>
+    </tr>
+  </table>
+  <br>
+  <button onclick="Jogo.reiniciar()">Reiniciar</button>
+  
+<style>
+  body {
+    text-align: center;
+  }
+  table, td, tr {
+    margin: 0 auto;
+    border: 1px solid;
+    text-align: center;
+  }
+  td {
+    width: 5em;
+    height: 5em;
+  }
+</style>
+<script src="./scripts.js"></script>
+</body>
+</html>
