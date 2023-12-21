@@ -1,8 +1,8 @@
-# TreinamentoDev
+# Treinamento Back-End
 
 Treinamento realizado durante o processo de estágio na área de **Desenvolvimento Técnico Back-end**.
 
-Nele, foram realizados mais de 10 cursos em diferentes plataformas. Os cursos feitos abrangem desde o conhecimento básico em *Banco de Dados* e *Front-End* até o aprendizado em áreas específicas do *Back-end*.
+Nele, foram realizados mais de 10 cursos em diferentes plataformas. Os cursos feitos abrangem desde o conhecimento básico em *Banco de Dados* e *Front-end* até o aprendizado em áreas específicas do *Back-end*.
 
 Todos os cursos realizados estarão listados abaixo.
 
@@ -16,7 +16,8 @@ Todos os cursos realizados estarão listados abaixo.
 8. [C# Intermediário](#c-intermediário)
 9. [C# Avançado](#c-avançado)
 10. [SQL Server Profiler](#sql-server-profiler)
-11. [ASP.NET](#aspnet)
+11. [PowerBuilder](#powerbuilder)
+12. [ASP.NET](#aspnet)
 
 
 ---
@@ -29,47 +30,47 @@ Treinamento realizado a partir de um documento elaborado pela própria empresa. 
 
 Os tópicos abordados foram:
 1. Introdução 
-  - O que é um banco de dados? 
-  - Qual a utilidade de um banco de dados? 
-  - A gestão dos bancos de dados  
-  - A linguagem SQL  
+    - O que é um banco de dados? 
+    - Qual a utilidade de um banco de dados? 
+    - A gestão dos bancos de dados  
+    - A linguagem SQL  
 2. Configuração do ambiente 
 3. Conceitos básicos  
-  - Termos comuns   
-  - Modelo de dados relacional 
+    - Termos comuns   
+    - Modelo de dados relacional 
 4. Conectando a um banco de dados  
-  - Criando uma tabela
-  - Inserindo dados em uma tabela 
+    - Criando uma tabela
+    - Inserindo dados em uma tabela 
 5. Recuperando dados de uma tabela – Parte I
-  - As sentenças *SELECT / FROM*
-  - A sentença *ORDER BY*
-  - A sentença *DISTINCT*
-  - A sentença *WHERE* 
+    - As sentenças *SELECT / FROM*
+    - A sentença *ORDER BY*
+    - A sentença *DISTINCT*
+    - A sentença *WHERE* 
 6. Atualizando dados de uma tabela  
 7. Excluindo linhas de uma tabela 
 8. Recuperando dados de uma tabela – Parte II
-  - Sinônimos (*aliases*)
-  - Adição de texto aos resultados
-  - Expressões numéricas
-  - Conversão de tipos
-  - Valores nulos
+    - Sinônimos (*aliases*)
+    - Adição de texto aos resultados
+    - Expressões numéricas
+    - Conversão de tipos
+    - Valores nulos
 9. Utilizando funções agregadas
-  - *COUNT*
-  - *MAX* e *MIN*
-  - *SUM*  
-  - *AVG*
-  - Outras utilizações   
+    - *COUNT*
+    - *MAX* e *MIN*
+    - *SUM*  
+    - *AVG*
+    - Outras utilizações   
 10. Agrupando dados 
   - *HAVING*
 11. Junções  
-  - Junções baseadas em igualdades  
-  - Junções não baseadas em igualdades
-  - *Self-Joins*
-  - Junções em mais de duas tabelas 
-  - *Outer-Joins*  
+    - Junções baseadas em igualdades  
+    - Junções não baseadas em igualdades
+    - *Self-Joins*
+    - Junções em mais de duas tabelas 
+    - *Outer-Joins*  
 12. Subconsultas  
-  - Múltiplos níveis de aninhamento
-  - Subconsultas que retornam múltiplas linhas
+    - Múltiplos níveis de aninhamento
+    - Subconsultas que retornam múltiplas linhas
 13. *EXISTS* e *NOT EXISTS* 
 14. *UNIONS*  
 15. Chaves primárias  
@@ -289,5 +290,56 @@ Dentre várias outras coisas, você será capaz de:
 
 
 ## SQL Server Profiler
+Treinamento realizado a partir de um documento e vídeo-aula elaborados pela própria empresa. Além disso, outras documentações, como a da própria [Microsoft](https://learn.microsoft.com/pt-br/sql/tools/sql-server-profiler/sql-server-profiler), serviram como base durante o aprendizado.
+
+
+## PowerBuilder
+Treinamento realizado a partir de documentos elaborados pela própria empresa. Possui foco no entendimento entre diferentes tecnologias utilizadas na empresa (C#, .NET e PowerBuilder) bem como ocorre sua integração.
+
+Alguns dos tópicos abordados foram:
+1. Introdução ao PowerBuilder
+1. Programação Orientada a Objetos com PowerBuilder
+1. Conexão com banco de dados
+1. Fontes, alinhamento do texto dos campos, tamanho e posicionamento dos controles, tab order, cores e estilos, limite dos campos, masks e formats, cabeçalho, agrupamentos, resize
+1. Serviços que podem ser utilizados com o PowerBuilder
+1. Atualização de banco de dados (update properties)
+1. Objetos principais: Application, Window, DataWindow, Menu, Global function, Query, Structure, User object, Pipeline, Project
+1. Estudo aprofundado nos diferentes objetos utilizados na empresa
+    - Datawindow key
+    - Datawindow grid
+    - Datawindow form
+    - Datawindow de relatório
+    - Menu
+    - Janela de cadastro
+    - Janela de relatório
+1. Padrão de codificação
+
 
 ## ASP.NET
+Diretório com as atividades desenvolvidas: [ASP.NET](/ASP.NET/)
+
+Último treinamento realizado e que também se deu a partir de um documento elaborado pela própria empresa. Possui foco na plataforma ASP.NET com codificação em C#.
+
+Os tópicos abordados foram:
+1. Introdução ao ASP.Net
+1. WebForms
+1. Ciclo de vida de uma página ASP
+    - Postback
+1. Variáveis de sessão
+    - Session
+    - ViewState
+1. Validadores ASP.Net
+    - Diretiva ClientTarget
+    - Propriedades comuns de todos os Controles de Validação
+1. Criando a primeira aplicação
+    - Criando o projeto e preparando o ambiente da aplicação
+        - Criando os Models
+        - Criando as classes de conexão com o banco de dados (DAO)
+    - Construindo uma interface de gerenciamento conectada ao banco de dados
+    - Alterando a MasterPage
+    - Finalizando a aplicação
+
+Ainda neste treinamento foram realizados 2 projetos:
+
+- Livraria: Uma aplicação web em C# e ASP.Net, utilizando o ".NET Framework 4.5". Essa aplicação irá simular um sistema de controle de livraria. Esse projeto visava aprender: como criar um formulário de cadastro; como criar uma lista de exibição e edição de itens; como fazer uma conexão com o banco de dados para inserir, atualizar e remover itens de uma tabela.
+- Questionário: Uma aplicação web para elaboração de questionários de pesquisa ou para avaliações (provas). Estes questionários possuem perguntas de única escolha ou de múltipla escolha. As perguntas dos questionários para avaliações possuem uma opção de resposta correta, o que difere das pesquisas onde não há resposta correta. Este projeto foi bastante complexo e envolvia a elaboração de algumas páginas na aplicação bem como deveria atender diversos requisitos funcionais e requisitos não funcionais listados.
